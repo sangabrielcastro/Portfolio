@@ -91,12 +91,15 @@ header .profile-image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 400px;
+  max-height: 400px;
   text-align: left;
   background: #fff;
   border-bottom: 10px solid #ff9904;
   border-radius: 6px;
   transition: all .5s;
+  position: relative;
+  top: 100px;
 }
 .card:hover {
   border-color: #a099ff;
@@ -205,24 +208,55 @@ a.social:hover {
   }
 .tech_image {
   margin-top: 50px;
-  width: 320px;
-  height: 220px;
+  width: 220px;
+  height: 175px;
   border-radius: 20px;
-  border: 3px solid blue;
+  border: 3px solid #ff9904;
   transition: all .5s;
   align-items:center;
+  position: relative;
+  bottom: 50px;
+  
 }
 .tech_image:hover {
   transform: scale(1.2) rotate(25deg);
+  border-color: #a099ff;
 }
 .main_image{
   width: 400px;
   height: 200px;
   border-radius: 5px;
-  border: 3px solid white;
+  border: 3px solid black;
   transition: all .5s;
   align-items: center;
+  position: relative;
+  top: 100px;
+  
+}
+.top-nav{
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 5px;
+  position: fixed;
+  text-align: center;
+}
 
+.background_image{
+  margin-top: 50px;
+  width: 220px;
+  height: 150px;
+  border-radius: 20px;
+  border: 3px solid #ff9904;
+  transition: all .5s;
+  align-items:center;
+  position: relative;
+  bottom: 50px;
+}
+
+.background_image:hover{
+  transform: scale(1.2) rotate(25deg);
+  border-color: #a099ff;
 }
 
 
